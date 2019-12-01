@@ -3,6 +3,7 @@ import { AsyncStorage, ScrollView, Text } from "react-native";
 
 export const API_URL =  "https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel&facet=overflowactivation&facet=creditcard&facet=kioskstate&facet=station_state";
   
+// Cette exercice reprend principalement votre correction
 
 export const get = async ( url, networkPriority = false) => {
   const key = encodeURIComponent(url);
